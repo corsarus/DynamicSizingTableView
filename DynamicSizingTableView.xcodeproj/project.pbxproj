@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE40B811A72E7A3009EE597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE40B801A72E7A3009EE597 /* main.m */; };
+		DDE40B841A72E7A3009EE597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE40B831A72E7A3009EE597 /* AppDelegate.m */; };
+		DDE40B8A1A72E7A3009EE597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE40B881A72E7A3009EE597 /* Main.storyboard */; };
+		DDE40B8C1A72E7A3009EE597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE40B8B1A72E7A3009EE597 /* Images.xcassets */; };
+		DDE40B8F1A72E7A3009EE597 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE40B8D1A72E7A3009EE597 /* LaunchScreen.xib */; };
+		DDE40B9B1A72E7A3009EE597 /* DynamicSizingTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE40B9A1A72E7A3009EE597 /* DynamicSizingTableViewTests.m */; };
+		DDE40BA61A72EE46009EE597 /* DynamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE40BA51A72EE46009EE597 /* DynamicTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE40B951A72E7A3009EE597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE40B731A72E7A3009EE597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE40B7A1A72E7A3009EE597;
+			remoteInfo = DynamicSizingTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE40B7B1A72E7A3009EE597 /* DynamicSizingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicSizingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE40B7F1A72E7A3009EE597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE40B801A72E7A3009EE597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE40B821A72E7A3009EE597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE40B831A72E7A3009EE597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE40B891A72E7A3009EE597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE40B8B1A72E7A3009EE597 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDE40B8E1A72E7A3009EE597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDE40B941A72E7A3009EE597 /* DynamicSizingTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicSizingTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE40B991A72E7A3009EE597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE40B9A1A72E7A3009EE597 /* DynamicSizingTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicSizingTableViewTests.m; sourceTree = "<group>"; };
+		DDE40BA41A72EE46009EE597 /* DynamicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTableViewController.h; sourceTree = "<group>"; };
+		DDE40BA51A72EE46009EE597 /* DynamicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE40B781A72E7A3009EE597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE40B911A72E7A3009EE597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE40B721A72E7A3009EE597 = {
+			isa = PBXGroup;
+			children = (
+				DDE40B7D1A72E7A3009EE597 /* DynamicSizingTableView */,
+				DDE40B971A72E7A3009EE597 /* DynamicSizingTableViewTests */,
+				DDE40B7C1A72E7A3009EE597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE40B7C1A72E7A3009EE597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE40B7B1A72E7A3009EE597 /* DynamicSizingTableView.app */,
+				DDE40B941A72E7A3009EE597 /* DynamicSizingTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE40B7D1A72E7A3009EE597 /* DynamicSizingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DDE40B821A72E7A3009EE597 /* AppDelegate.h */,
+				DDE40B831A72E7A3009EE597 /* AppDelegate.m */,
+				DDE40BA41A72EE46009EE597 /* DynamicTableViewController.h */,
+				DDE40BA51A72EE46009EE597 /* DynamicTableViewController.m */,
+				DDE40B881A72E7A3009EE597 /* Main.storyboard */,
+				DDE40B8B1A72E7A3009EE597 /* Images.xcassets */,
+				DDE40B8D1A72E7A3009EE597 /* LaunchScreen.xib */,
+				DDE40B7E1A72E7A3009EE597 /* Supporting Files */,
+			);
+			path = DynamicSizingTableView;
+			sourceTree = "<group>";
+		};
+		DDE40B7E1A72E7A3009EE597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE40B7F1A72E7A3009EE597 /* Info.plist */,
+				DDE40B801A72E7A3009EE597 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE40B971A72E7A3009EE597 /* DynamicSizingTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE40B9A1A72E7A3009EE597 /* DynamicSizingTableViewTests.m */,
+				DDE40B981A72E7A3009EE597 /* Supporting Files */,
+			);
+			path = DynamicSizingTableViewTests;
+			sourceTree = "<group>";
+		};
+		DDE40B981A72E7A3009EE597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE40B991A72E7A3009EE597 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE40B7A1A72E7A3009EE597 /* DynamicSizingTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE40B9E1A72E7A3009EE597 /* Build configuration list for PBXNativeTarget "DynamicSizingTableView" */;
+			buildPhases = (
+				DDE40B771A72E7A3009EE597 /* Sources */,
+				DDE40B781A72E7A3009EE597 /* Frameworks */,
+				DDE40B791A72E7A3009EE597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicSizingTableView;
+			productName = DynamicSizingTableView;
+			productReference = DDE40B7B1A72E7A3009EE597 /* DynamicSizingTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE40B931A72E7A3009EE597 /* DynamicSizingTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE40BA11A72E7A3009EE597 /* Build configuration list for PBXNativeTarget "DynamicSizingTableViewTests" */;
+			buildPhases = (
+				DDE40B901A72E7A3009EE597 /* Sources */,
+				DDE40B911A72E7A3009EE597 /* Frameworks */,
+				DDE40B921A72E7A3009EE597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE40B961A72E7A3009EE597 /* PBXTargetDependency */,
+			);
+			name = DynamicSizingTableViewTests;
+			productName = DynamicSizingTableViewTests;
+			productReference = DDE40B941A72E7A3009EE597 /* DynamicSizingTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE40B731A72E7A3009EE597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tapsarena;
+				TargetAttributes = {
+					DDE40B7A1A72E7A3009EE597 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DDE40B931A72E7A3009EE597 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DDE40B7A1A72E7A3009EE597;
+					};
+				};
+			};
+			buildConfigurationList = DDE40B761A72E7A3009EE597 /* Build configuration list for PBXProject "DynamicSizingTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE40B721A72E7A3009EE597;
+			productRefGroup = DDE40B7C1A72E7A3009EE597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE40B7A1A72E7A3009EE597 /* DynamicSizingTableView */,
+				DDE40B931A72E7A3009EE597 /* DynamicSizingTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE40B791A72E7A3009EE597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE40B8A1A72E7A3009EE597 /* Main.storyboard in Resources */,
+				DDE40B8F1A72E7A3009EE597 /* LaunchScreen.xib in Resources */,
+				DDE40B8C1A72E7A3009EE597 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE40B921A72E7A3009EE597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE40B771A72E7A3009EE597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE40B841A72E7A3009EE597 /* AppDelegate.m in Sources */,
+				DDE40B811A72E7A3009EE597 /* main.m in Sources */,
+				DDE40BA61A72EE46009EE597 /* DynamicTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE40B901A72E7A3009EE597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE40B9B1A72E7A3009EE597 /* DynamicSizingTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE40B961A72E7A3009EE597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE40B7A1A72E7A3009EE597 /* DynamicSizingTableView */;
+			targetProxy = DDE40B951A72E7A3009EE597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE40B881A72E7A3009EE597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE40B891A72E7A3009EE597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE40B8D1A72E7A3009EE597 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE40B8E1A72E7A3009EE597 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE40B9C1A72E7A3009EE597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE40B9D1A72E7A3009EE597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE40B9F1A72E7A3009EE597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicSizingTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDE40BA01A72E7A3009EE597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicSizingTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DDE40BA21A72E7A3009EE597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicSizingTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicSizingTableView.app/DynamicSizingTableView";
+			};
+			name = Debug;
+		};
+		DDE40BA31A72E7A3009EE597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicSizingTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicSizingTableView.app/DynamicSizingTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE40B761A72E7A3009EE597 /* Build configuration list for PBXProject "DynamicSizingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE40B9C1A72E7A3009EE597 /* Debug */,
+				DDE40B9D1A72E7A3009EE597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE40B9E1A72E7A3009EE597 /* Build configuration list for PBXNativeTarget "DynamicSizingTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE40B9F1A72E7A3009EE597 /* Debug */,
+				DDE40BA01A72E7A3009EE597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE40BA11A72E7A3009EE597 /* Build configuration list for PBXNativeTarget "DynamicSizingTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE40BA21A72E7A3009EE597 /* Debug */,
+				DDE40BA31A72E7A3009EE597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE40B731A72E7A3009EE597 /* Project object */;
+}
